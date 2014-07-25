@@ -1,8 +1,8 @@
 {
   "name": "language-yara",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "repository": "https://github.com/atom/language-yara",
+  "version": "1.0.0",
+  "description": "Atom syntax highlighting for Yara Rule files",
+  "repository": "https://github.com/blacktop/language-yara",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
