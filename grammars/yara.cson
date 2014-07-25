@@ -1,0 +1,73 @@
+'fileTypes': ['yara', 'yar']
+'foldingStartMarker': '/\\*\\*|\\{\\s*$'
+'foldingStopMarker': '\\*\\*/|^\\s*\\}'
+'name': 'YARA'
+'patterns': [
+  {
+    'begin': '/\\*'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.yara'
+    'end': '\\*/'
+    'name': 'comment.block.yara'
+  }
+  {
+    'begin': '//'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.yara'
+    'end': '$\\n?'
+    'name': 'comment.line.yara'
+    'patterns': [
+      {
+        'match': '(?>\\\\\\s*\\n)'
+        'name': 'punctuation.separator.continuation.yara'
+      }
+    ]
+  }
+  {
+    'match': '\\b(true|false|private|global|rule|strings|meta|condition|and|or|not|filesize|in|at|rva|of|for|all|any|nocase|regexp|fullword|wide|ascii|entrypoint|them|int8|int16|int32|uint8|uint16|uint32|include|matches|contains)\\b'
+    'name': 'keyword.yara'
+  }
+  {
+    'match': '\\b(0(x|X)[0-9a-fA-F]+)(MB|KB)?\\b'
+    'name': 'constant.numeric.yara'
+  }
+  {
+    'match': '(\\$|#|@)[a-zA-Z0-9_*]*'
+    'name': 'variable.other.yara'
+  }
+  {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.yara'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.yara'
+    'name': 'string.quoted.double.yara'
+    'patterns': [
+      {
+        'include': '#string_escaped_char'
+      }
+    ]
+  }
+  {
+    'begin': '/'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.yara'
+    'end': '/'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.yara'
+    'name': 'string.quoted.double.yara'
+    'patterns': [
+      {
+        'include': '#string_escaped_char'
+      }
+    ]
+  }
+]
+'scopeName': 'source.untitled'
