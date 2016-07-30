@@ -5,7 +5,7 @@ language-yara
 
 ![License](https://img.shields.io/apm/l/language-yara.svg) ![Downloads](https://img.shields.io/apm/dm/language-yara.svg) ![Version](https://img.shields.io/apm/v/language-yara.svg)
 
-Atom syntax highlighting for Yara Rule files.
+Atom syntax highlighting for [Yara](https://github.com/VirusTotal/yara) Rule files.
 
 ![yara-example](https://raw.githubusercontent.com/blacktop/language-yara/master/yara_syntax.png)
 
@@ -25,7 +25,7 @@ Find a bug? Want more features? Find something missing in the documentation? Let
 
 ### Credits
 
-> Converted from [plusvic/yara](https://github.com/plusvic/yara/blob/master/extra/TextMate-bundle.zip)
+> Converted from [VirusTotal/yara](https://github.com/VirusTotal/yara/blob/master/extra/TextMate-bundle.zip)
 
 ### CHANGELOG
 
