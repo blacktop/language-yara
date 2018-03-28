@@ -1,21 +1,21 @@
-Change Log
-==========
+# Change Log
 
 All notable changes to this project will be documented in this file.
 
-3.2.0 - First Release
----------------------
+## 3.3.0 - 28Mar2018
 
--	Fixes Issue #2
+* Adds `xor` keyword. Credit: @wesinator
 
-3.1.0 - First Release
----------------------
+## 3.2.0 - First Release
 
--	Add "import" keyword and remove "rva" and "regexp"
--	Giant version 'bump' to match the current version of Yara
+* Fixes Issue #2
 
-0.1.0 - First Release
----------------------
+## 3.1.0 - First Release
 
--	Every feature added
--	Every bug fixed
+* Add "import" keyword and remove "rva" and "regexp"
+* Giant version 'bump' to match the current version of Yara
+
+## 0.1.0 - First Release
+
+* Every feature added
+* Every bug fixed

@@ -1,7 +1,6 @@
 ![yara-logo](http://plusvic.github.io/yara/images/logo.png)
 
-language-yara
-=============
+# language-yara
 
 ![License](https://img.shields.io/apm/l/language-yara.svg) ![Downloads](https://img.shields.io/apm/dm/language-yara.svg) ![Version](https://img.shields.io/apm/v/language-yara.svg)
 
@@ -9,7 +8,7 @@ Atom syntax highlighting for [Yara](https://github.com/VirusTotal/yara) Rule fil
 
 ![yara-example](https://raw.githubusercontent.com/blacktop/language-yara/master/yara_syntax.png)
 
-### Install
+## Install
 
 Atom Package: https://atom.io/packages/language-yara
 
@@ -19,24 +18,24 @@ apm install language-yara
 
 Or Settings/Preferences ➔ Packages ➔ Search for `language-yara`
 
-### Issues
+## Issues
 
 Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/blacktop/language-yara/issues/new) and I'll get right on it.
 
-### Credits
+## Credits
 
 > Converted from [VirusTotal/yara](https://github.com/VirusTotal/yara/blob/master/extra/TextMate-bundle.zip)
 
-### CHANGELOG
+## CHANGELOG
 
 See [`CHANGELOG.md`](https://github.com/blacktop/language-yara/blob/master/CHANGELOG.md)
 
-### Contributing
+## Contributing
 
 [See all contributors on GitHub](https://github.com/blacktop/language-yara/graphs/contributors).
 
 Please update the [CHANGELOG.md](https://github.com/blacktop/language-yara/blob/master/CHANGELOG.md), add yourself as a contributor to the [package.json](https://github.com/blacktop/language-yara/blob/master/package.json), and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
 
-### License
+## License
 
-MIT Copyright (c) 2014-2016 **blacktop**
+MIT Copyright (c) 2014-2018 **blacktop**
