@@ -1,6 +1,6 @@
 {
   "name": "language-yara",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Atom syntax highlighting for Yara Rule files",
   "repository": "https://github.com/blacktop/language-yara",
   "license": "MIT",
