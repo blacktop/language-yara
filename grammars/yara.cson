@@ -66,7 +66,6 @@
     'name': 'string.quoted.double.yara'
     'patterns': [
       {
-        'include': '#string_escaped_char'
       }
     ]
   }
