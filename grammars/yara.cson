@@ -63,10 +63,9 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.yara'
-    'name': 'string.quoted.double.yara'
+    'name': 'string.regex.yara'
     'patterns': [
       {
-        'include': '#string_escaped_char'
       }
     ]
   }
