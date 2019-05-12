@@ -66,6 +66,8 @@
     'name': 'string.regex.yara'
     'patterns': [
       {
+        'match': '\\\\.'
+        'name': 'constant.regex.escape.yara'
       }
     ]
   }
