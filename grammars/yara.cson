@@ -27,7 +27,7 @@
     ]
   }
   {
-    'match': '\\b(true|false|private|global|rule|strings|meta|condition|and|or|not|filesize|in|at|of|for|all|any|nocase|fullword|wide|ascii|xor|entrypoint|them|int8|int16|int32|uint8|uint16|uint32|include|import|matches|contains)\\b'
+    'match': '\\b(true|false|private|global|rule|strings|meta|condition|and|or|not|filesize|in|at|of|for|all|any|nocase|fullword|wide|ascii|xor|entrypoint|them|int8|int16|int32|int8be|int16be|int32be|uint8|uint16|uint32|uint8be|uint16be|uint32be|include|import|matches|contains)\\b'
     'name': 'keyword.yara'
   }
   {
